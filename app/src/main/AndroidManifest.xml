@@ -21,6 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FTPManual"></activity>
+        <activity android:name=".Email"></activity>
+        <activity android:name=".Cases"></activity>
+        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".RegisterYLogin"></activity>
     </application>
 
 </manifest>
