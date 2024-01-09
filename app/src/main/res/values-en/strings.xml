@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BufeteManolo_ManualBBDD</string>
+    <string name="titleTextView">Project Manual</string>
+    <string name="selectLangText">Select your language</string>
+    <string name="sendMenu">Back to menu</string>
+    <string name="titleFTP">FTP (File Transfer Protocol)</string>
+    <string name="titleAboutUs">About us</string>
+    <string name="titleCases">Lawyer`s Cases</string>
+    <string name="titleEmail">E-Mail</string>
+
+    <string-array name="menu_buttons">
+        <item>File management</item>
+        <item>E-mail management</item>
+        <item>Cases management</item>
+        <item>About us</item>
+        <item>Login and Register</item>
+    </string-array>
+</resources>

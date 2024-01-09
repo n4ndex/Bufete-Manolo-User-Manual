@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="16dp"
+            android:text="@string/titleFTP"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageLawyer"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp" />
+
+        <TextView
+            android:id="@+id/textContent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageLawyer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageUser"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/textContent1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp" />
+
+        <TextView
+            android:id="@+id/textContent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonBackToMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textContent2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/sendMenu" />
+
+    </RelativeLayout>
+</ScrollView>
