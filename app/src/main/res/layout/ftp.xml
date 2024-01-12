@@ -7,25 +7,39 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/black">
+        android:background="@color/black"
+        >
 
         <TextView
             android:id="@+id/titleTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:paddingTop="16dp"
+            android:gravity="center"
             android:text="@string/titleFTP"
-            android:textSize="18sp"
-            android:textColor="@color/white"/>
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif-black"
+            android:textSize="35dp"
+            android:background="@color/purple_700"/>
 
         <ImageView
             android:id="@+id/imageLawyer"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@id/titleTextView"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="11dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageLawyer"
+            android:layout_centerHorizontal="true"
+            android:text="@string/subTitleFTPLawyer"
+            android:textColor="@color/purple_200">
+
+        </TextView>
 
         <TextView
             android:id="@+id/textContent1"
@@ -33,17 +47,29 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageLawyer"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:textSize="20sp"
-            android:textColor="@color/white"/>
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/imageUser"
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@id/textContent1"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageUser"
+            android:layout_centerHorizontal="true"
+            android:text="@string/subTitleFTPClient"
+            android:textColor="@color/purple_200">
+
+        </TextView>
 
         <TextView
             android:id="@+id/textContent2"
@@ -51,9 +77,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/imageUser"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
-            android:textSize="20sp"
-            android:textColor="@color/white" />
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/buttonBackToMenu"
@@ -61,7 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/textContent2"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="25dp"
             android:text="@string/sendMenu" />
 
     </RelativeLayout>

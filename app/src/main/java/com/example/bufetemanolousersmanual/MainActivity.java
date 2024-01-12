@@ -3,7 +3,6 @@ package com.example.bufetemanolousersmanual;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
@@ -13,13 +12,13 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
+import android.graphics.Color;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Arrays;
 import java.util.Locale;
 
-// testHugo
 public class MainActivity extends AppCompatActivity {
 
     Spinner languageSpinner;

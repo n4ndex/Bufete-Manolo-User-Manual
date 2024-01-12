@@ -6,20 +6,44 @@
     android:background="@color/black">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/titleAbout"
+        android:layout_width="match_parent"
+        android:gravity="center"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:paddingTop="16dp"
         android:text="@string/titleAboutUs"
         android:textColor="@color/white"
         android:layout_gravity="center"
-        android:textSize="30dp">
+        android:fontFamily="sans-serif-black"
+        android:textSize="35dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/purple_700">
     </TextView>
+
+    <TextView
+        android:id="@+id/aboutDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleAbout"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        />
 
     <Button
         android:id="@+id/buttonBackToMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="20dp"
         android:text="@string/sendMenu" />
 </LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Bufete Manolo User\'s Manual</string>
+    <string name="app_name">BufeteManolo_ManualBBDD</string>
     <string name="titleTextView">Project Manual</string>
     <string name="selectLangText">Select your language</string>
     <string name="sendMenu">Back to menu</string>
@@ -8,6 +8,9 @@
     <string name="titleAboutUs">About us</string>
     <string name="titleCases">Lawyer`s Cases</string>
     <string name="titleEmail">E-Mail</string>
+    <string name="subTitleFTPLawyer">(Screenshot of file management by a "Lawyer" user)</string>
+    <string name="subTitleFTPClient">(Screenshot of file management by a "Client" user)</string>
+    <string name="titleLoginAndRegister">Login and Register</string>
 
     <string-array name="menu_buttons">
         <item>File management</item>

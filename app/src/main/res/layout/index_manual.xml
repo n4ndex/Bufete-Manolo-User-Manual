@@ -7,22 +7,25 @@
 
         <TextView
             android:id="@+id/titleTextView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/titleTextView"
-            android:textSize="36dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:textSize="35dp"
+            android:background="@color/purple_700"
             android:textStyle="bold"
             android:textColor="@color/white"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/languageSpinner"
+            />
 
         <Spinner
             android:id="@+id/languageSpinner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="16dp"
             android:background="@color/white"/>
 
         <LinearLayout
@@ -33,14 +36,6 @@
             android:layout_centerHorizontal="true"
             android:orientation="vertical"
             android:gravity="center">
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/selectLangText"
-                    android:textColor="@color/white"
-                    android:gravity="center"/>
 
         </LinearLayout>
 
