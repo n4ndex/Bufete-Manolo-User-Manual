@@ -26,6 +26,7 @@
         <activity android:name=".Cases"></activity>
         <activity android:name=".AboutUs"></activity>
         <activity android:name=".RegisterYLogin"></activity>
+        <activity android:name=".Menu"></activity>
     </application>
 
 </manifest>

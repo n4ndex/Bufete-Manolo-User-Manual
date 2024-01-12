@@ -18,5 +18,6 @@
         <item>Cases management</item>
         <item>About us</item>
         <item>Login and Register</item>
+        <item>Menu management</item>
     </string-array>
 </resources>
