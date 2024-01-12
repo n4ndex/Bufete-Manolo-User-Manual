@@ -58,7 +58,6 @@ public class Cases extends AppCompatActivity {
                         if (documentSnapshot.exists()) {
                             String text = obtenerTextoSegunIdioma(documentSnapshot, "english-text1", "spanish-text1");
                             descriptionCase.setText(text);
-                            imageCases.setImageResource(R.drawable.cases);
                         } else {
                             Toast.makeText(Cases.this, "No existen datos en Firestore", Toast.LENGTH_SHORT).show();
                         }
@@ -80,8 +79,11 @@ public class Cases extends AppCompatActivity {
 
         if (currentLanguage.equalsIgnoreCase("en")) {
             textKey = keyIngles;
+            imageCases.setImageResource(R.drawable.cases_eng);
+
         } else if(currentLanguage.equalsIgnoreCase("es")){
             textKey = keyEspanol;
+            imageCases.setImageResource(R.drawable.cases);
         }
 
         return documentSnapshot.getString(textKey);

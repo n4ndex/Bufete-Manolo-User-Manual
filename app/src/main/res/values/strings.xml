@@ -13,11 +13,11 @@
     <string name="titleMenu">Gestión del Menú</string>
 
     <string-array name="menu_buttons">
+        <item>Acceder y Registrarse</item>
+        <item>Gestión del Menú</item>
         <item>Gestión de ficheros</item>
         <item>Gestión de correo electrónico</item>
         <item>Gestión de casos</item>
         <item>Acerca de nosotros</item>
-        <item>Acceder y Registrarse</item>
-        <item>Gestión del Menú</item>
     </string-array>
 </resources>

@@ -61,15 +61,18 @@ public class RegisterYLogin extends AppCompatActivity {
                             if ("en".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("english-text1");
                                 text2 = documentSnapshot.getString("english-text2");
+                                adapter = new PagerAdapter(RegisterYLogin.this, new String[]{text1, text2}, new int[]{R.drawable.login_eng, R.drawable.register_eng} );
+
                             } else if ("es".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("spanish-text1");
                                 text2 = documentSnapshot.getString("spanish-text2");
+                                adapter = new PagerAdapter(RegisterYLogin.this, new String[]{text1, text2}, new int[]{R.drawable.login, R.drawable.register} );
+
                             } else {
                                 text1 = "not found";
                                 text2 = "not found";
                             }
 
-                            adapter = new PagerAdapter(RegisterYLogin.this, new String[]{text1, text2}, new int[]{R.drawable.login, R.drawable.register} );
                             viewPager.setAdapter(adapter);
                         }
                     }

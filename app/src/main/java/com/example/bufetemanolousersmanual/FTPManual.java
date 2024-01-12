@@ -37,12 +37,6 @@ public class FTPManual extends AppCompatActivity {
         imgLawyer = findViewById(R.id.imageLawyer);
         imgUser = findViewById(R.id.imageUser);
 
-        imgLawyer.setImageResource(R.drawable.ftplawyer);
-        imgLawyer.setVisibility(View.VISIBLE);
-
-        imgUser.setImageResource(R.drawable.ftpuser);
-        imgUser.setVisibility(View.VISIBLE);
-
         FirebaseUtils.initializeFirebase(this);
 
         Intent intent = getIntent();
@@ -72,12 +66,20 @@ public class FTPManual extends AppCompatActivity {
                                 String textEng1 = documentSnapshot.getString("english-text1");
                                 String textEng2 = documentSnapshot.getString("english-text2");
                                 tv1.setText(textEng1);
+                                imgLawyer.setImageResource(R.drawable.ftplawyer_eng);
+                                imgLawyer.setVisibility(View.VISIBLE);
                                 tv2.setText(textEng2);
+                                imgUser.setImageResource(R.drawable.ftpuser_eng);
+                                imgUser.setVisibility(View.VISIBLE);
                             } else if ("es".equalsIgnoreCase(currentLanguage)) {
                                 String textEsp1 = documentSnapshot.getString("spanish-text1");
                                 String textEsp2 = documentSnapshot.getString("spanish-text2");
                                 tv1.setText(textEsp1);
+                                imgLawyer.setImageResource(R.drawable.ftplawyer);
+                                imgLawyer.setVisibility(View.VISIBLE);
                                 tv2.setText(textEsp2);
+                                imgUser.setImageResource(R.drawable.ftpuser);
+                                imgUser.setVisibility(View.VISIBLE);
                             } else {
                                 tv1.setText("");
                                 tv2.setText("");

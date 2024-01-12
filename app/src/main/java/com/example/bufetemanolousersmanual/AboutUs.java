@@ -57,7 +57,6 @@ public class AboutUs extends AppCompatActivity {
                         if (documentSnapshot.exists()) {
                             String text = obtenerTextoSegunIdioma(documentSnapshot, "english-text1", "spanish-text1");
                             aboutUsDescription.setText(text);
-                            imageView.setImageResource(R.drawable.about);
                         } else {
                             Toast.makeText(AboutUs.this, "No existen datos en Firestore", Toast.LENGTH_SHORT).show();
                         }
@@ -79,8 +78,10 @@ public class AboutUs extends AppCompatActivity {
 
         if (currentLanguage.equalsIgnoreCase("en")) {
             textKey = keyIngles;
+            imageView.setImageResource(R.drawable.about_eng);
         } else if(currentLanguage.equalsIgnoreCase("es")){
             textKey = keyEspanol;
+            imageView.setImageResource(R.drawable.about);
         }
 
         return documentSnapshot.getString(textKey);

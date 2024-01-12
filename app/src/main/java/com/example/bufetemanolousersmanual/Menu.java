@@ -61,15 +61,18 @@ public class Menu extends AppCompatActivity {
                             if ("en".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("english-text1");
                                 text2 = documentSnapshot.getString("english-text2");
+                                adapter = new PagerAdapter(Menu.this, new String[]{text1, text2}, new int[]{R.drawable.menu_lawyer_eng, R.drawable.menu_client_eng} );
+
                             } else if ("es".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("spanish-text1");
                                 text2 = documentSnapshot.getString("spanish-text2");
+                                adapter = new PagerAdapter(Menu.this, new String[]{text1, text2}, new int[]{R.drawable.menu_lawyer, R.drawable.menu_client} );
+
                             } else {
                                 text1 = "not found";
                                 text2 = "not found";
                             }
 
-                            adapter = new PagerAdapter(Menu.this, new String[]{text1, text2}, new int[]{R.drawable.menu_lawyer, R.drawable.menu_client} );
                             viewPager.setAdapter(adapter);
                         }
                     }

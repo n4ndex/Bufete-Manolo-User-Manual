@@ -61,15 +61,18 @@ public class Email extends AppCompatActivity {
                             if ("en".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("english-text1");
                                 text2 = documentSnapshot.getString("english-text2");
+                                adapter = new PagerAdapter(Email.this, new String[]{text1, text2}, new int[]{R.drawable.email1_eng, R.drawable.email2_eng} );
+
                             } else if ("es".equalsIgnoreCase(currentLanguage)) {
                                 text1 = documentSnapshot.getString("spanish-text1");
                                 text2 = documentSnapshot.getString("spanish-text2");
+                                adapter = new PagerAdapter(Email.this, new String[]{text1, text2}, new int[]{R.drawable.email1, R.drawable.email2} );
+
                             } else {
                                 text1 = "not found";
                                 text2 = "not found";
                             }
 
-                            adapter = new PagerAdapter(Email.this, new String[]{text1, text2}, new int[]{R.drawable.email1, R.drawable.email2} );
                             viewPager.setAdapter(adapter);
                         }
                     }

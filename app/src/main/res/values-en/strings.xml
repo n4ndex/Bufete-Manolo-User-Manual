@@ -14,11 +14,11 @@
     <string name="titleMenu">Menu management</string>
 
     <string-array name="menu_buttons">
+        <item>Login and Register</item>
+        <item>Menu management</item>
         <item>File management</item>
         <item>E-mail management</item>
         <item>Cases management</item>
         <item>About us</item>
-        <item>Login and Register</item>
-        <item>Menu management</item>
     </string-array>
 </resources>
