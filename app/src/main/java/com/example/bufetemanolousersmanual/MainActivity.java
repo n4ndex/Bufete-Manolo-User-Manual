@@ -19,6 +19,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Arrays;
 import java.util.Locale;
 
+// testHugo
 public class MainActivity extends AppCompatActivity {
 
     Spinner languageSpinner;
