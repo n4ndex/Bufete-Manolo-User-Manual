@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">BufeteManolo_ManualBBDD</string>
+    <string name="app_name">Bufete Manolo</string>
     <string name="titleTextView">Project Manual</string>
     <string name="selectLangText">Select your language</string>
     <string name="sendMenu">Back to menu</string>
