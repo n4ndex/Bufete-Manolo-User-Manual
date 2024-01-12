@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void createButtons() {
         String[] buttonTitles = getResources().getStringArray(R.array.menu_buttons);
-        final Class<?>[] targetActivities = {FTPManual.class, Email.class, Cases.class, AboutUs.class, RegisterYLogin.class};
+        final Class<?>[] targetActivities = {FTPManual.class, Email.class, Cases.class, AboutUs.class, RegisterYLogin.class, Menu.class};
 
         LinearLayout buttonContainer = findViewById(R.id.buttonsLayout);
 
