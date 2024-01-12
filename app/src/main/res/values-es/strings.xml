@@ -11,6 +11,7 @@
     <string name="subTitleFTPLawyer">(Captura de la gestión de archivos de un usuario abogado)</string>
     <string name="subTitleFTPClient">(Captura de la gestión de archivos de un usuario cliente)</string>
     <string name="titleLoginAndRegister">Acceso y Registro</string>
+    <string name="titleMenu">Gestión del Menú</string>
 
     <string-array name="menu_buttons">
         <item>Gestión de ficheros</item>

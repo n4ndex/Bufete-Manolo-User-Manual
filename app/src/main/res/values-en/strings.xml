@@ -11,6 +11,7 @@
     <string name="subTitleFTPLawyer">(Screenshot of file management by a "Lawyer" user)</string>
     <string name="subTitleFTPClient">(Screenshot of file management by a "Client" user)</string>
     <string name="titleLoginAndRegister">Login and Register</string>
+    <string name="titleMenu">Menu management</string>
 
     <string-array name="menu_buttons">
         <item>File management</item>
