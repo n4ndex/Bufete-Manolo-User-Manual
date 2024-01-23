@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "357406043454",
+    "project_id": "proyecto-integrado-grupo2",
+    "storage_bucket": "proyecto-integrado-grupo2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357406043454:android:792d1dce244c7943cf506f",
+        "android_client_info": {
+          "package_name": "com.example.bufetemanolo_manualbbdd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzYgpe3BCgL1MPgivgmHbO5DQUmgkkRfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357406043454:android:7cf666afcc2a76eccf506f",
+        "android_client_info": {
+          "package_name": "com.example.bufetemanolousersmanual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzYgpe3BCgL1MPgivgmHbO5DQUmgkkRfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
